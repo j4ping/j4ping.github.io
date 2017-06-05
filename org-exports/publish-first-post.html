@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2017-04-16 Sun 12:49 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>publish very first post</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="Zheng, Ping">
+</head>
+<body>
+<div id="content">
+<h1 class="title">publish very first post</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org1ef00f2">1. introduction</a></li>
+<li><a href="#orgfd9d609">2. now what we have?</a>
+<ul>
+<li><a href="#orge0b558c">2.1. basic setup for org static site</a></li>
+<li><a href="#org9d2957d">2.2. basic setup</a></li>
+<li><a href="#org31d309f">2.3. babel output</a></li>
+</ul>
+</li>
+<li><a href="#orgb27448f">3. third part</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1ef00f2" class="outline-2">
+<h2 id="org1ef00f2"><span class="section-number-2">1</span> introduction</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+OK, this is the very first time to test my new approach to setup personal site.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfd9d609" class="outline-2">
+<h2 id="orgfd9d609"><span class="section-number-2">2</span> now what we have?</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-orge0b558c" class="outline-3">
+<h3 id="orge0b558c"><span class="section-number-3">2.1</span> basic setup for org static site</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+this is still a basic org mode static site, general varialbes like
+<code>org-publish-project-alist</code> and <code>org-babel-do-load-languages</code> are defined in
+my init file, and <code>SETUPFILE</code> is placed in the project directory and included
+in every post with line <code>#+SETUPFILE: SETUPFILE</code>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9d2957d" class="outline-3">
+<h3 id="org9d2957d"><span class="section-number-3">2.2</span> basic setup</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+place the <code>SETUPFILE</code> in project directory, for project general setting.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org31d309f" class="outline-3">
+<h3 id="org31d309f"><span class="section-number-3">2.3</span> babel output</h3>
+<div class="outline-text-3" id="text-2-3">
+<div class="org-src-container">
+<pre class="src src-sh">tree --noreport -n ../pingz.github.io/
+</pre>
+</div>
+
+<pre class="example">
+../pingz.github.io/
+├── index.html
+├── LICENSE
+├── org-exports
+│   ├── publish-first-post.html
+│   └── publish-first-post.html~
+└── README.md
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb27448f" class="outline-2">
+<h2 id="orgb27448f"><span class="section-number-2">3</span> third part</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+now we test for refer style and javascript.
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
